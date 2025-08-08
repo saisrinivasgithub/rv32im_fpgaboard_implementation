@@ -1,1 +1,1 @@
-# rv32im_fpgaboard_integration
+# RV32IM Block Diagram
