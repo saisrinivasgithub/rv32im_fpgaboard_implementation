@@ -22,7 +22,6 @@
 // Signed Multiplier 
 // Parallel Multiplier 
 // A size is N and B size is M
-// ---- Written by Bhanu Prakash Reddy ---
 module mul #(parameter N=8,M=8)(A,B,sn,out);
     input [N-1:0]A;
     input [M-1:0]B;
@@ -57,5 +56,6 @@ else
 end
 
  
+
 
 endmodule
