@@ -1,30 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 18.04.2024 16:09:54
-// Design Name: 
-// Module Name: risc_v_piplined
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-
- 
- 
- 
-
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-
-
-
- 
  `define  INPUT_SWITCH__OUTPUT_7_SEGMENT
  
  
@@ -710,3 +684,4 @@ assign reg_write_data_W_out[1]=reg_write_data_W[31];
 
 
 endmodule
+
