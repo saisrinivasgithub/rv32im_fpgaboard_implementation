@@ -1,27 +1,8 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 19.03.2024 12:13:01
-// Design Name: 
-// Module Name: Array_MUL_USign
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+
 // Unsigned Multiplier 
 // Parallel Multiplier 
 // A size is N and B size is M
-// ---- Written by Dr. Vikram ---
 
 module Array_MUL_USign #(parameter N=32,M=11)(A,B,Y);
     input [N-1:0]A;
@@ -58,4 +39,5 @@ genvar j;
 endgenerate
     
 assign Y[N+M-1:M] = S[M-1];
+
 endmodule
