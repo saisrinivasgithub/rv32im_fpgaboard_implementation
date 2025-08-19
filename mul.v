@@ -1,27 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 19.03.2024 12:10:37
-// Design Name: 
-// Module Name: mul
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-// Signed Multiplier 
-// Parallel Multiplier 
-// A size is N and B size is M
 module mul #(parameter N=8,M=8)(A,B,sn,out);
     input [N-1:0]A;
     input [M-1:0]B;
@@ -59,3 +36,4 @@ end
 
 
 endmodule
+
